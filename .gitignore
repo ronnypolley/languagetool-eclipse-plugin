@@ -1,7 +1,10 @@
-bin
+bin/
 *.jar
 *.zip
 target/
 *~
 *.class
 
+.settings/
+.classpath
+.project
