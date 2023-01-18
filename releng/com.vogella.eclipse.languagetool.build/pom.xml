@@ -42,6 +42,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <artifactId>target-platform-configuration</artifactId>
         <version>${tycho.version}</version>
         <configuration>
+		  <dependency-resolution>
+        	<optionalDependencies>ignore</optionalDependencies>
+      	  </dependency-resolution>
           <environments>
             <environment>
               <os>linux</os>

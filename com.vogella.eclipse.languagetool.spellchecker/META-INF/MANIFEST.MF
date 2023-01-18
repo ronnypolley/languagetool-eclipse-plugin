@@ -3,6 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: LanguageTool
 Bundle-SymbolicName: com.vogella.eclipse.languagetool.spellchecker;singleton:=true
 Bundle-Version: 1.0.0.qualifier
+Import-Package: javax.xml.bind;version="2.3.3";resolution:=optional
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.ui.workbench.texteditor,
