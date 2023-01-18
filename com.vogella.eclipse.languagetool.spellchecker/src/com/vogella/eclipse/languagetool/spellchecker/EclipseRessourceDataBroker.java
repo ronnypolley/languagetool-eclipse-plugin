@@ -25,7 +25,7 @@ import java.io.IOException;
 import java.net.URL;
 
 import org.eclipse.core.runtime.FileLocator;
-import org.languagetool.databroker.DefaultResourceDataBroker;
+import org.languagetool.broker.DefaultResourceDataBroker;
 
 public class EclipseRessourceDataBroker extends DefaultResourceDataBroker {
 
